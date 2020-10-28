@@ -1,12 +1,37 @@
+#naviBar{
+    height: 10vh;
+}
+#contentWrapper{
+    height: 90vh;
+}
 #folders {
-    background-color: red;
-    padding: 2em;
+    background-color: darkslategrey;
+
 }
 #profile {
     display: flex;
     flex-direction: row;
-    margin: 5px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0px 10px 0px;
+    color: white;
 }
+#profilePic {
+    margin-right: 5px;
+}
+
+button{
+    margin: 10px 0px 10px 0px;
+}
+
+#folderList {
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 10px;
+    width: 90%;
+}
+
 #col2 {
     background-color: green;
 }

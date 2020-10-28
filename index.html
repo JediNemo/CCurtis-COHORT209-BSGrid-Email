@@ -12,29 +12,30 @@
 <body>
     <div class="container-fluid">
         
-        <div class="navbar navbar-light bg-light">
-            <span class="navbar-brand mb-0 h1">BVT COHORT 209 Email Template Project</span>
+        <div class="row" id="naviBar">
+            <div class="navbar navbar-light bg-light">
+                <span class="navbar-brand mb-0 h1">BVT COHORT 209 Email Template Project</span>
+            </div>
         </div>
-        <div class="row">
-
-            <div class="col-md-2 d-flex flex-column justify-content-between align-items-center" id="folders">
-                <div id="Profile">
-                    <svg width="1.0625em" height="1em" viewBox="0 0 17 16" class="bi bi-image" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M14.002 2h-12a1 1 0 0 0-1 1v9l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15.002 9.5V3a1 1 0 0 0-1-1zm-12-1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm4 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+        <div class="row" id="contentWrapper">
+            <div class="col-md-2 d-flex flex-column justify-content-start align-items-center" id="folders">
+                <div id="profile">
+                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-card-image" id="profilePic" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
                     </svg>
                     Christopher Curtis
                 </div>
                 <button type="button" class="btn btn-primary">Compose</button>
-                <ul class="nav flex-md-column list-group-flush">
-                    <li class="nav-item d-flex justify-content-between align-items-center">Inbox &nbsp;
+                <ul class="nav flex-md-column list-group-flush justify-content-between" id="folderList">
+                    <li class="nav-item d-flex justify-content-between align-items-center">Inbox
                         <span class="badge badge-primary badge-pill">10</li>
-                    <li class="nav-item d-flex justify-content-between align-items-center">Sent
+                    <li class="nav-item d-flex justify-content-between align-items-center ">Sent
                         <span class="badge badge-primary badge-pill">0</li>
                     </li>
-                    <li class="nav-item d-flex justify-content-between align-items-center">Trash
+                    <li class="nav-item d-flex justify-content-between align-items-center ">Trash
                         <span class="badge badge-primary badge-pill">125</li>
                     </li>
-                    <li class="nav-item d-flex justify-content-between align-items-center">Spam
+                    <li class="nav-item d-flex justify-content-between align-items-center ">Spam
                         <span class="badge badge-primary badge-pill">23</li>
                     </li>
                 </ul>
